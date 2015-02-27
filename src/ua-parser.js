@@ -4,7 +4,7 @@
  * https://github.com/faisalman/ua-parser-js
  *
  * Copyright © 2012-2014 Faisal Salman <fyzlman@gmail.com>
- * Dual licensed under GPLv2 & MIT
+ * Dual licensed under GPLv2 & MITHTC Nexus 9
  */
 
 (function (window, undefined) {
@@ -508,7 +508,7 @@
                                                                                 // Alcatel/GeeksPhone/Huawei/Lenovo/Nexian/Panasonic/Sony
             ], [VENDOR, [MODEL, /_/g, ' '], [TYPE, MOBILE]], [
                 
-            /(nexus\s9)/i,                                                      // HTC Nexus 9
+            /(nexus\s9)/i                                                       // HTC Nexus 9
             ], [MODEL, [VENDOR, 'HTC'], [TYPE, TABLET]], [
 
             /[\s\(;](xbox(?:\sone)?)[\s\);]/i                                   // Microsoft Xbox
